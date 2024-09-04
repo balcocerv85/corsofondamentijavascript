@@ -36,3 +36,6 @@ console.log(5 < 5) // false
 // Menor o igual que (<=):Verifica si el valor de la izquierda es menor o igual que el valor de la derecha.
 console.log(4 <= 5) // true 
 console.log(5 <= 5) // true
+
+// Conversión de tipos implícita: Los operadores == y != realizan conversiones de tipo implícitas antes de la comparación. 
+// Por ejemplo, 5 == "5" es true porque JavaScript convierte la cadena "5" en el número 5 antes de compararlos.
