@@ -17,8 +17,10 @@ const a = 10
 const b = 20
 const c = "10"
 
-console.log(a < b && a == c)
+console.log(a == b && a === c)
 
-console.log(a == c || b > a)
+
+console.log(a != b || b == a)
+
 console.log(a === c)
 console.log(!(a === c))
